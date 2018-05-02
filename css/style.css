@@ -1,0 +1,243 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    font-family: 'Lato';
+    color: #fff;
+}
+a {
+    text-decoration: none;
+}
+header {
+    height: 85px;
+    background-color: #f6f9f9;
+}
+header p {
+    padding-left: 20px;
+}
+.wrapper {
+	display: none;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+header img {
+    width: 33px;
+    height: 33px;
+}
+a.uppercase {
+    font-weight: 500;
+    font-size: 30px;
+    color: #2d3950;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.banner {
+    height: 800px;
+    width: 100%;
+    position: relative;
+    background-image: url(../img/banner_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button-down {
+    position: absolute;
+    bottom: 20px;
+}
+h1.uppercase {
+    font-weight: 500;
+    font-size: 120px;
+    color: #fff;
+    position: relative;
+    margin: 0px;
+    border-bottom: 1px solid #15a4fa;
+    width: 600px;
+    text-align: center;
+}
+.banner p {
+    font-size: 20px;
+    font-weight: 300;
+}
+.button {
+    padding-top: 60px;
+}
+.button a {
+    background-color: #15a4fa;
+    padding: 20px 30px;
+    border-radius: 5px;
+    color: #fff;
+}
+.simple-pure {
+    background-color: #f6f9f9;
+    height: 340px;
+}
+h2 {
+    font-size: 40px;
+    color: #2d3950;
+}
+.simple-pure p {
+    color: #999999;
+    font-size: 20px;
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 40px;
+}
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 340px;
+}
+.feature p {
+    color: #909090;
+    text-align: center;
+}
+.feature img {
+    width: 100px;
+    height: 100px;
+}
+h3 {
+    color: #2d3950;
+    font-size: 22px;
+}
+.clean-minimal-design {
+    margin: 0 2%;
+}
+.optimized-for-all-devices,
+.clean-minimal-design,
+.font-awesome-icon,
+.showcase-your-work,
+.stay-with-us,
+.banner,
+.simple-pure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.showcase-your-work p {
+    color: #909090;
+    text-align: center;
+}
+.showcase-your-work {
+    background-color: #f6f9f9;
+    min-height: 900px;
+}
+.block-for-bg {
+    margin-left: 9vw;
+    margin-right: 9vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.block-for-bg img {
+    margin: 50px;
+}
+.stay-with-us p {
+    color: #909090;
+    margin-bottom: 40px;
+}
+.stay-with-us {
+    background-image: url(../img/footer_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.stay-with-us h2 {
+    margin: 0px;
+    color: #fff;
+}
+input.name,
+input.email,
+textarea {
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Lato';
+    background: transparent;
+    border-color: #999999;
+    margin-bottom: 15px;
+    color: #fff;
+}
+input.name:focus,
+input.email:focus,
+textarea:focus {
+    outline: 1px solid #15a4fa;
+}
+input.name,
+input.email {
+    height: 45px;
+}
+form {
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+}
+.block-for-button-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type="submit"] {
+    width: 145px;
+    height: 50px;
+    font-family: 'Lato';
+    background: #15a4fa;
+    border: 1px solid #15a4fa;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.block-for-checkbox label,
+footer p,
+.showcase-your-work p 
+.stay-with-us p,
+.feature p,
+input[type="submit"] {
+    font-size: 15px;
+}
+
+footer,
+.block-for-social-icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+}
+
+footer p {
+    color: #999999;
+}
+
+.facebook,
+.twitter,
+.google,
+.instagram {
+    width: 40px;
+    height: 40px;
+    margin-left: 18px;
+    margin-right: 10px;
+}
+
+i.fa.fa-facebook {
+    background: #3b5998;
+    padding: 14px 20px;
+}
+
+i.fa.fa-twitter {
+    background: #55acee;
+    padding: 14px 20px;
+}
+
+i.fa.fa-google-plus {
+    background: #dd4b39;
+    padding: 14px 18px;
+}
+
+i.fa.fa-instagram {
+    background: #c7337d;
+    padding: 14px 20px;
+}
