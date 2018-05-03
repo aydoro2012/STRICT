@@ -46,6 +46,9 @@ a.uppercase {
 .button-down {
     position: absolute;
     bottom: 20px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
 }
 h1.uppercase {
     font-weight: 500;
